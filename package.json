@@ -9,7 +9,7 @@
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:update-package": "pnpm dlx vp-update",
-    "publish":"java --version && xcopy D:\\+vscode-home\\hope-press\\my-docs\\src\\.vuepress\\dist D:\\+vscode-home\\hope-press\\my-docs\\doc /s /e /y"
+    "publish":"java --version && xcopy D:\\+vscode-home\\hope-press\\my-docs\\src\\.vuepress\\dist D:\\+vscode-home\\hope-press\\my-docs\\docs /s /e /y"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
